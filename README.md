@@ -1,53 +1,56 @@
 
-# Face Recognition Attendance System 
+# Face Recognition Attendance System
 
 ## Description
-Software for Industry , where they can track the attendence of their employee with the help of face recognition using OpenCV library.
+A simple and efficient attendance-tracking system for organizations using real-time face recognition with OpenCV. The system captures user images, identifies registered users, and automatically records attendance with time and date.
+
+---
 
 ## Table of Contents
-- [Project Plan](#project-plan)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- Project Overview
+- Features
+- Tech Stack
+- Installation
+- Usage
+- Folder Structure
+- Future Improvements
+- License
 
-## Project Plan
-- Task:
-  - [x] Create a home page
-  - [x] Show attendence log on home for particular day
-  - [ ] Recreate a HTML , bootstrap boilerplate and remove unwanted code
-  - [ ] Show date and day on home page
-  - [ ] Company name should be visible on home page
-  - [ ] Show list of total Employee on home page
-  - [ ] Create a Admin panel
-  - [ ] Give various rights to admin 
-  - [ ] Work on UI
+---
+
+## Project Overview
+This project automates the attendance process by recognizing faces through a webcam. It reduces manual effort, minimizes errors, and ensures reliable attendance logging.
+
+---
 
 ## Features
-- Adding a New User
+- Register a new user  
+- Capture live images for registration  
+- Store multiple user images  
+- Detect multiple faces in real time  
+- Mark attendance automatically  
+- View attendance logs  
+- Export attendance in CSV/Excel  
 
--	Capturing Live Images
+---
 
--	To understand the Total number of Users in Database
-  
--	Click on Take Attendance 
+## Tech Stack
+- Python  
+- OpenCV  
+- MTCNN / Haar Cascade  
+- FaceNet / LBPH  
+- Flask (if using web UI)  
+- Pandas  
+- NumPy  
 
--	Multiple User Faces can be detected
-
--	Attendance of Multiple Users taken
-
--	Attendance of Users displayed
-
-## Installation
-- Explain how to install or set up the project.
+---
 
 ## Usage
-- this is useful in tracking the attendence of your employees
 
-## Contributing
-- Contributers are welcomed, you can simply fork the repo and contribute , and make PR
-- Dont wait for getting issue assigned to you
-## License
-- Include information about the project's license.
-
+1. Register a new user by capturing images.
+2. Start the attendance mode.
+3. The system detects and recognizes faces.
+4. Attendance is recorded with timestamps.
+5. Logs are stored in CSV/Excel format.
+   
+---
