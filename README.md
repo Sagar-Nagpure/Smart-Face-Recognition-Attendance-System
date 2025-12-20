@@ -1,19 +1,5 @@
 # Face Recognition Attendance System
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo_Vision-5C3EE8?style=for-the-badge
-
-![License](https://img.shields.io/badge/License-MIT-green intelligent facial recognition-based attendance system that automates student/employee attendance tracking with real-time face detection and verification.
-
-</div>
-
-***
-
-## 📸 Screenshots
-
-
-
 ✨ Features
 
 - ✅ Real-time face detection and recognition
@@ -152,13 +138,5 @@ MIT License - See LICENSE file for details
 - ✅ Proper authentication required
 - ✅ GDPR compliant
 - ✅ Encrypted sensitive data
-
-***
-
-<div align="center">
-
-Made with dedication by Sagar Nagpure
-
-</div>
 
 ***
